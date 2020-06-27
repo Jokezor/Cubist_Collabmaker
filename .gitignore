@@ -1,0 +1,7 @@
+# Ignore all of these files in git
+#.env.dev
+#.env.prod
+#.env.prod.db
+.DS_Store
+webserver/.DS_Store
+webserver/__pycache__

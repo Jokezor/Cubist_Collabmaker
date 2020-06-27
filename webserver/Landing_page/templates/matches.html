@@ -1,0 +1,20 @@
+<h1>Antal Test {{ tests }} </h1> 
+
+
+
+
+{% for colab in colabs %}
+<p>Collaboration: {{ colab.title }} </p>
+{% for passion in colab.user.passions_set.all %}
+<p>Passion: {{ passion.passion.skill }} </p>
+{% endfor %}
+{% endfor %}
+
+
+
+
+
+
+
+
+
